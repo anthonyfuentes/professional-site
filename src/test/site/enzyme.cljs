@@ -8,3 +8,6 @@
 
 (defn shallow [hiccup]
   (-> hiccup as-element enzyme/shallow))
+
+(defn render [hiccup]
+  (-> hiccup as-element enzyme/render))

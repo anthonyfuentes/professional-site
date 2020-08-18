@@ -7,5 +7,36 @@
   (-> (render)
       e/shallow
       (.hasClass "resume")
-      true?
+      is))
+
+(deftest renders-header-component
+  (-> (render)
+      e/render
+      (.find ".header")
+      (.-length)
+      (= 1)
+      is))
+
+(deftest renders-experience-component
+  (-> (render)
+      e/render
+      (.find ".experience")
+      (.-length)
+      (= 1)
+      is))
+
+(deftest renders-skills-component
+  (-> (render)
+      e/render
+      (.find ".skills")
+      (.-length)
+      (= 1)
+      is))
+
+(deftest renders-education-component
+  (-> (render)
+      e/render
+      (.find ".education")
+      (.-length)
+      (= 1)
       is))
