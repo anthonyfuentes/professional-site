@@ -4,9 +4,9 @@
             [site.components.skills :as skl]
             [site.components.education :as edu]))
 
-(defn render []
+(defn render [props]
   [:article.resume
-   [head/render]
+   [head/render props]
    [exp/render]
    [skl/render]
    [edu/render]])

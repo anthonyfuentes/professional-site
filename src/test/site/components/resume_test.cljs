@@ -4,13 +4,13 @@
             [site.components.resume :refer [render]]))
 
 (deftest has-class-resume
-  (-> (render)
+  (-> (render {})
       e/shallow
       (.hasClass "resume")
       is))
 
 (deftest renders-header-component
-  (-> (render)
+  (-> (render {})
       e/render
       (.find ".header")
       (.-length)
@@ -18,7 +18,7 @@
       is))
 
 (deftest renders-experience-component
-  (-> (render)
+  (-> (render {})
       e/render
       (.find ".experience")
       (.-length)
@@ -26,7 +26,7 @@
       is))
 
 (deftest renders-skills-component
-  (-> (render)
+  (-> (render {})
       e/render
       (.find ".skills")
       (.-length)
@@ -34,7 +34,7 @@
       is))
 
 (deftest renders-education-component
-  (-> (render)
+  (-> (render {})
       e/render
       (.find ".education")
       (.-length)
