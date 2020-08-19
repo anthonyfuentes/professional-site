@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+}
+
+.resume {
+  width: 76.5vw;
+  max-width: 1063px;
+  height: 99vh;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "a a a a a x x x"
+  "a a a a a b b b";
+  background-color: #D6D4D3;
+  padding: 1em 3em 1em 3em;
+}
+
+.header h1 {
+  font-size: 3em;
+  grid-area: a;
+  align-content: end;
+  margin: 0;
+}
+
+.header .contact {
+  grid-area: b;
+}
+
+.header .contact-detail {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  font-size: 1.15em;
+}
+
+.header .contact-detail img {
+  height: 70%;
+  width: auto;
+  margin: 0 .15em 0 0;
+}
