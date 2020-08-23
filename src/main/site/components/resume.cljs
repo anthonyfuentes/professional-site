@@ -7,6 +7,6 @@
 (defn render [props]
   [:article.resume
    [head/render props]
-   [exp/render]
+   [exp/render (:experience props)]
    [skl/render]
    [edu/render]])
