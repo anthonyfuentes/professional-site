@@ -41,3 +41,37 @@ body {
   width: auto;
   margin: 0 .15em 0 0;
 }
+
+.experience-list {
+  border-left: 2px solid;
+  list-style-type: none;
+  margin: 0 0 0 1em;
+  padding: 0 0 0 0;
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 0 1.5em .5em;
+}
+
+.experience-detail td {
+  padding: 0 0 .5em 0;
+}
+
+.experience-detail .title {
+  font-weight: bold;
+}
+
+.experience-detail .organization > td,
+                   .dates > td {
+  padding-left: .5em;
+}
+
+.experience-highlights > ul {
+  list-style-type: disc;
+}
+
+.experience-highlights li {
+  margin: 0 0 .5em 0;
+}
