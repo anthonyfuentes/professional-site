@@ -1,22 +1,8 @@
-(ns site.data)
-
-(def github
-  {:display "anthonyfuentes"
-   :url "https://github.com/anthonyfuentes"})
-
-(def linkedin
-  {:display "anthonycfuentes"
-   :url "https://www.linkedin.com/in/anthonycfuentes"})
-
-(def email
-  {:display "anthony@anthonyfuentes.us"
-   :url "mailto:anthony@anthonyfuentes.us"})
-
-(def contact-info
-  {:email email
-   :linkedin linkedin
-   :github github})
+(ns site.data
+  (:require [site.data.contact-info :as contact-info]
+            [site.data.experience :as experience]))
 
 (def resume
   {:name "Anthony Fuentes"
-   :contact-info contact-info})
+   :contact-info contact-info/all
+   :experience experience/all})
