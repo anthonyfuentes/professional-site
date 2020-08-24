@@ -10,7 +10,7 @@
       is))
 
 (deftest renders-correct-number-of-experience-items
-  (-> [{} {}]
+  (-> {:experience [{} {}]}
       render
       e/render
       (.find ".experience-item")
