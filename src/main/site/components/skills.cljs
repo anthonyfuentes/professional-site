@@ -1,4 +1,7 @@
-(ns site.components.skills)
+(ns site.components.skills
+  (:require [site.components.skills-list :as sl]))
 
-(defn render []
-  [:section.skills "skills"])
+(defn render [props]
+  [:section.skills
+   [:h2 "Skills"]
+   [sl/render props]])

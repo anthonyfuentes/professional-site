@@ -8,5 +8,5 @@
   [:article.resume
    [head/render props]
    [exp/render props]
-   [skl/render]
+   [skl/render props]
    [edu/render]])
