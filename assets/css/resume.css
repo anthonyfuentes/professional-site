@@ -47,22 +47,25 @@ body {
   margin: 0 .15em 0 0;
 }
 
-/********************
- * EXPERIENCE SECTION
- ********************/
-.experience-list {
+/***************************
+ * SECTION, LIST ITEM BASICS
+ ***************************/
+.section > [class*="-list"] {
   border-left: 2px solid;
   list-style-type: none;
   margin: 0 0 0 1em;
   padding: 0 0 0 0;
 }
 
-.experience-item {
+.section [class*="-item"] {
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin: 0 0 1.5em .5em;
 }
 
+/********************
+ * EXPERIENCE SECTION
+ ********************/
 .experience-detail td {
   padding: 0 0 .5em 0;
 }
@@ -88,19 +91,6 @@ body {
 /****************
  * SKILLS SECTION
  ****************/
-.skills-list {
-  border-left: 2px solid;
-  list-style-type: none;
-  margin: 0 0 0 1em;
-  padding: 0 0 0 0;
-}
-
-.skills-item {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin: 0 0 1.5em .5em;
-}
-
 .skills-item .skill-area {
   font-weight: bold;
 }
