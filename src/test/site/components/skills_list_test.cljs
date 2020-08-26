@@ -10,7 +10,7 @@
       is))
 
 (deftest renders-correct-number-of-skills-items
-  (-> {:skills [{} {}]}
+  (-> {:skills [{:display :x} {:display :y}]}
       render
       e/render
       (.find ".skills-item")
