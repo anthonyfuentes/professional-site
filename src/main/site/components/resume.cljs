@@ -9,4 +9,4 @@
    [head/render props]
    [exp/render props]
    [skl/render props]
-   [edu/render]])
+   [edu/render props]])
