@@ -94,3 +94,19 @@ body {
 .skills-item .skill-area {
   font-weight: bold;
 }
+
+/*******************
+ * EDUCATION SECTION
+ *******************/
+.education-item .organization {
+  font-weight: bold;
+}
+
+.education-item .dates {
+  padding: .5em 0 0 .5em;
+}
+
+.education-item span:nth-child(2) {
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+}
