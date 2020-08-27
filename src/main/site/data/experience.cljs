@@ -41,7 +41,7 @@
 
 (def ucsd
   {:title "Application Programmer"
-   :organization "San Diego Supercomputer Center"
+   :organization "UCSD Supercomputer Center"
    :start "Sep 2019"
    :end "Present"
    :highlights ucsd-highlights})
