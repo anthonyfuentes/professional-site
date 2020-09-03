@@ -114,3 +114,17 @@ body {
   display: grid;
   grid-template-columns: 4fr 5fr;
 }
+
+/******************
+ * DOWNLOAD SECTION
+ ******************/
+.download {
+  filter: invert(44%) sepia(85%) saturate(2897%) hue-rotate(178deg) brightness(95%) contrast(101%);
+  position: fixed;
+  right: 21em;
+  top: 6em;
+}
+
+.download:hover {
+  filter: invert(32%) sepia(91%) saturate(992%) hue-rotate(174deg) brightness(93%) contrast(108%);
+}
