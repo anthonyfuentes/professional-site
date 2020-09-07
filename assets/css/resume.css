@@ -15,33 +15,36 @@ body {
  * HEADER
  ********/
 .header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-  "a a a a a x x x"
-  "a a a a a b b b";
   background-color: #D6D4D3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 1em 3em 1em 3em;
 }
 
 .header h1 {
   font-size: 3em;
-  grid-area: a;
-  align-content: end;
+  align-items: end;
   margin: 0;
+  display: inline;
 }
 
-.header .contact {
-  grid-area: b;
+.header .contact-info {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header .contact-info table {
+  width: auto;
 }
 
 .header .contact-detail {
   display: grid;
-  grid-template-columns: 1fr 8fr;
+  grid-template-columns: min-content max-content;
   font-size: 1.15em;
 }
 
-.header .contact-detail img {
+.header img {
   height: 70%;
   width: auto;
   margin: 0 .15em 0 0;
@@ -113,18 +116,4 @@ body {
 .education-item span:nth-child(2) {
   display: grid;
   grid-template-columns: 4fr 5fr;
-}
-
-/******************
- * DOWNLOAD SECTION
- ******************/
-.download {
-  filter: invert(44%) sepia(85%) saturate(2897%) hue-rotate(178deg) brightness(95%) contrast(101%);
-  position: fixed;
-  right: 21em;
-  top: 6em;
-}
-
-.download:hover {
-  filter: invert(32%) sepia(91%) saturate(992%) hue-rotate(174deg) brightness(93%) contrast(108%);
 }

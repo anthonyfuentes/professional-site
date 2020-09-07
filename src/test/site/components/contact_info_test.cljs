@@ -9,10 +9,10 @@
       (.hasClass "contact-info")
       is))
 
-(deftest renders-three-contact-details
+(deftest renders-correct-number-of-contact-details
   (-> (render {})
       e/render
       (.find ".contact-detail")
       (.-length)
-      (= 3)
+      (= 4)
       is))
