@@ -2,13 +2,11 @@
   (:require [site.components.header :as head]
             [site.components.experience :as exp]
             [site.components.skills :as skl]
-            [site.components.education :as edu]
-            [site.components.download :as dl]))
+            [site.components.education :as edu]))
 
 (defn render [props]
   [:article.resume
    [head/render props]
    [exp/render props]
    [skl/render props]
-   [edu/render props]
-   [dl/render]])
+   [edu/render props]])
