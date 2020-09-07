@@ -2,6 +2,7 @@ node_modules/
 assets/js/manifest.edn
 assets/js/main.js
 assets/js/cljs-runtime
+assets/resources
 
 /target
 /checkouts
