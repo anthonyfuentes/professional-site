@@ -2,19 +2,19 @@
 
 (def languages
   {:display "Languages"
-   :list ["Clojure" "JavaScript" "PHP" "Ruby"]})
+   :list ["Clojure" "JavaScript" "Ruby" "PHP"]})
 
 (def libraries
   {:display "Platforms, libraries"
-   :list ["shadow-cljs" "LAMP" "Ruby on Rails" "React + Redux"]})
+   :list ["Reagent + re-frame" "React + Redux" "Ruby on Rails" "LAMP"]})
 
 (def web
   {:display "Web"
-   :list ["HTML" "CSS" "jQuery"]})
+   :list ["HTML5" "CSS3" "jQuery"]})
 
 (def other
   {:display "Other"
-   :list ["MySQL" "MariaDB" "Linux" "Ansible"]})
+   :list ["git" "SQL" "Linux" "Ansible"]})
 
 (def all
   [languages

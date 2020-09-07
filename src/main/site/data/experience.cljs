@@ -1,19 +1,9 @@
 (ns site.data.experience)
 
-(def sunrise-highlights
-  ["You think water moves fast? You should see ice."
-   "It moves like it has a mind."])
-
-(def sunrise
-  {:title "HR Technical Lead"
-   :organization "Sunrise Management"
-   :start "Mar 2015"
-   :end "Apr 2016"
-   :highlights sunrise-highlights})
-
 (def vcs-highlights
-  ["I should've known way back when... You know why, David?"
-   "Because of the kids. They called me Mr Glass."])
+  ["Applied development best practices to create full-featured web applications"
+   "Provided feedback to teammates during daily code reviews"
+   "Created user stories based on application specifications"])
 
 (def vcs
   {:title "Web Development Apprentice"
@@ -23,25 +13,28 @@
    :highlights vcs-highlights})
 
 (def purdue-highlights
-  ["Well, the way they make shows is, they make one show. That show's called a pilot."
-   "Some pilots get picked and become television programs. Some don't, become nothing."
-   "She starred in one of the ones that became nothing."])
+  ["Built platform for sharing, leading intercultural learning activities used at over 80 universities"
+   "Developed data collection system used by physicians at 18 hospitals across the U.S."
+   "Investigated and resolved user-reported software defects across full stack"
+   "Deployed critical updates to over 20 client systems"])
 
 (def purdue
   {:title "Full Stack Developer"
-   :organization "Purdue Research Computing"
+   :organization "Purdue - HUBzero"
    :start "May 2017"
    :end "Sep 2019"
    :highlights purdue-highlights})
 
 (def ucsd-highlights
-  ["The path of the righteous man is beset on all sides"
-   "Blessed is he who shepherds the weak through the valley of darkness"
-   "And I will strike down those who would attempt to poison and destroy"])
+  ["Technical lead on contract-based client projects"
+   "Key member on team transitioning core product from PHP monolith to Clojure microservices"
+   "Reduced ticket processing workload by 85% through development of automated aggregation system"
+   "Drove organization-wide adoption of SCRUM-based development practices"
+   "Increased new feature test coverage by 70%"])
 
 (def ucsd
-  {:title "Application Programmer"
-   :organization "UCSD Supercomputer Center"
+  {:title "Software Engineer"
+   :organization "UCSD - HUBzero"
    :start "Sep 2019"
    :end "Present"
    :highlights ucsd-highlights})
@@ -49,5 +42,4 @@
 (def all
   [ucsd
    purdue
-   vcs
-   sunrise])
+   vcs])
