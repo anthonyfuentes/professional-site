@@ -4,5 +4,5 @@
   (str "images/" icon ".svg"))
 
 (defn render [props]
-  (let [file (file-for (:icon props))]
-    [:img.svg-icon {:src file}]))
+  [:img.svg-icon {:src (-> props :icon file-for)
+                  :alt (:alt props)}])

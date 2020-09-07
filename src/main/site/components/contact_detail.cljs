@@ -3,5 +3,5 @@
 
 (defn render [props]
   [:a.contact-detail {:href (:url props)}
-   (icon/render props)
+   [icon/render props]
    (:display props)])
