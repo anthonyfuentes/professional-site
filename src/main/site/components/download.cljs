@@ -6,7 +6,8 @@
    :download true})
 
 (def icon-props
-  {:icon "download"})
+  {:icon "download"
+   :alt "download icon: cloud with arrow pointing downward"})
 
 (defn render []
   [:a.download anchor-config
