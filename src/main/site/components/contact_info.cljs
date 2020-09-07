@@ -20,5 +20,5 @@
      [:tr
       [:td [cd/render (merge (:email props) email-icon-props)]]]
      [:tr
-      [:td [cd/render (merge (:linkedin props) li-icon-props)]]
-      [:td [cd/render (merge (:github props) gh-icon-props)]]]]]])
+      [:td [cd/render (merge (:github props) gh-icon-props)]]
+      [:td [cd/render (merge (:linkedin props) li-icon-props)]]]]]])

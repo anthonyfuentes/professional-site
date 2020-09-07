@@ -4,5 +4,5 @@
             [site.components.resume :as r]))
 
 (defn init! []
-  (prn "Initializing routes")
-  (rdom/render [r/render d/resume] (.getElementById js/document "app")))
+  (rdom/render [r/render d/resume]
+               (.getElementById js/document "app")))
