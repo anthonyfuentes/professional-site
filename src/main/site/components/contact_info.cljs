@@ -7,7 +7,7 @@
 
 (def download-icon-props
   {:icon "download"
-   :url "/resources/resume.pdf"
+   :url "./resources/resume.pdf"
    :download true
    :alt "download icon: cloud with arrow pointing downward"
    :display "Download PDF"})
