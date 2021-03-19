@@ -15,12 +15,12 @@
 (def purdue-highlights
   ["Built platform for sharing, leading intercultural learning activities used at over 80 universities"
    "Developed data collection system used by physicians at 18 hospitals across the U.S."
-   "Investigated and resolved user-reported software defects across full stack"
+   "Investigated and resolved user-reported software defects across the full stack"
    "Deployed critical updates to over 20 client systems"])
 
 (def purdue
   {:title "Full Stack Developer"
-   :organization "Purdue - HUBzero"
+   :organization "Purdue"
    :start "May 2017"
    :end "Sep 2019"
    :highlights purdue-highlights})
@@ -34,7 +34,7 @@
 
 (def ucsd
   {:title "Software Engineer"
-   :organization "UCSD - HUBzero"
+   :organization "UCSD"
    :start "Sep 2019"
    :end "Present"
    :highlights ucsd-highlights})
