@@ -1,5 +1,5 @@
 (ns site.enzyme
-  (:require ["enzyme-adapter-react-16.3" :as enzyme-adapter]
+  (:require ["enzyme-adapter-react-16" :as enzyme-adapter]
             ["enzyme" :as enzyme]
             [reagent.core :as reagent :refer [as-element]]))
 
